@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Application</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div class="question-container">
+            <p id="question"></p>
+        </div>
+        <div class="options-container">
+            <button class="option" onclick="checkAnswer(0)">Option 1</button>
+            <button class="option" onclick="checkAnswer(1)">Option 2</button>
+            <button class="option" onclick="checkAnswer(2)">Option 3</button>
+            <button class="option" onclick="checkAnswer(3)">Option 4</button>
+        </div>
+        <div class="score-container">
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
